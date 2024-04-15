@@ -8,6 +8,9 @@ import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.SequenceGenerator;
 
+/**
+ * Table data of Employee entity
+ */
 @Entity
 public class Employee implements Serializable {
 
@@ -33,7 +36,6 @@ public class Employee implements Serializable {
 		this.email = email;
 		this.age = age;
 	}
-	
 
 	public Long getId() {
 		return id;
@@ -80,8 +82,5 @@ public class Employee implements Serializable {
 		return "Employee [id=" + id + ", name=" + name + ", divsion=" + divsion + ", email=" + email + ", age=" + age
 				+ "]";
 	}
-	
-	
 
 }
-	
