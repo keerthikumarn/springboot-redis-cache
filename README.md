@@ -1,60 +1,56 @@
-# springboot-redis-cache
+<h1 align="center" id="title">springboot-redis-cache</h1>
 
+<p align="center"><img src="https://socialify.git.ci/keerthikumarn/springboot-redis-cache/image?description=1&amp;descriptionEditable=sample%20project%20to%20demonstrate%20caching%20with%20redis%20and%20springboot&amp;font=Rokkitt&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Formal%20Invitation&amp;pulls=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
-# Spring Boot with Redis Cache
+<h2>🚀 Demo</h2>
 
-This is a Spring Boot application that demonstrates the integration of Redis cache to improve the performance of your application.
+[https://github.com/keerthikumarn/springboot-redis-cache](https://github.com/keerthikumarn/springboot-redis-cache)
 
-## Table of Contents
-- [Features](#features)
-- [Prerequisites](#prerequisites)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Configuration](#configuration)
-- [Testing](#testing)
+  
+  
+<h2>🧐 Features</h2>
 
-## Features
+Here're some of the project's best features:
 
-- Spring Boot 3.x
-- Redis cache integration
-- Caching of frequently accessed data
-- Configurable cache settings
+*   Spring Boot 3.x
+*   Redis cache integration
+*   Caching of frequently accessed data
+*   Configurable cache settings
 
-## Prerequisites
+<h2>🛠️ Installation Steps:</h2>
 
-- Java 17 or higher
-- Redis server running on your local machine or a remote server
-
-## Installation
-
-Clone the repository:
-
-   ```bash
-   git clone https://github.com/keerthikumarn/springboot-redis-cache.git
+<p>1. Clone the repo</p>
 
 ```
-cd spring-boot-redis-cache
-./mvnw clean install
-
-## Usage
-
-Run the application with the below command:
-```
-./mvnw spring-boot:run
-```
-The application will start running on http://localhost:8080
-
-## Configuration
-
-Update the application.properties with the below entries:
-```
-# Redis Config
-spring.cache.type=redis
-spring.redis.host=localhost
-spring.redis.port=6379
+https://github.com/keerthikumarn/springboot-redis-cache.git
 ```
 
-## Testing
+<p>2. Compile and build</p>
+
 ```
-./mvnw test
+mvn clean install
 ```
+
+<p>3. start the app</p>
+
+```
+mvn spring-boot:run
+```
+
+<p>4. Update the redis config in application.properties</p>
+
+```
+spring.cache.type=redis spring.redis.host=localhost spring.redis.port=6379
+```
+
+  
+  
+<h2>💻 Built with</h2>
+
+Technologies used in the project:
+
+*   Springboot
+*   Redis
+*   JDK 17
+
+<h2>💖Like my work?</h2>
